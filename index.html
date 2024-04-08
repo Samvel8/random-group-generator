@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Random Group Generator</title>
+</head>
+<body>
+    <h1>Random Group Generator</h1>
+    <label for="participants">Enter participants (one per line):</label><br>
+    <textarea id="participants" rows="5" cols="30"></textarea><br>
+    <label for="groupSize">Enter group size:</label><br>
+    <input type="number" id="groupSize"><br>
+    <button onclick="generateGroups()">Generate Groups</button>
+    <button onclick="clearInput()">Clear Input</button>
+    <div id="output"></div>
+
+    <script src="./src/index.js">
+
+    </script>
+</body>
+</html>
